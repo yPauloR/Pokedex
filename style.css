@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f60000;
+}
+
+.pokedex {
+    background: #66c4ed;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.pokedex-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive; ;
+}
+
+.pokedex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokedex-container input {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.pokedex-container button {
+    background: #f9a825;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pokedex-container button:hover {
+    background: #fbc02d;
+}
+
+.pokemon-info {
+    margin-top: 20px;
+}
+
+.pokemon-info img {
+    width: 150px;
+    height: 150px;
+}
+
+.pokemon-info #pokemon-name {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.em;
+    margin-top: 10px;
+}
+
+.pokemon-info #pokemon-type {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.em;
+    margin-top: 10px;
+}
+.pokemon-info #pokemon-id {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.em;
+    margin-top: 10px;
+}
+.pokemon-info #pokemon-height {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.em;
+    margin-top: 10px;
+}
+
+.pokemon-info p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
